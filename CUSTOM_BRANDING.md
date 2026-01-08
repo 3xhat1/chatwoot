@@ -8,25 +8,25 @@ Export environment variables and run rake task with `bundle exec rails branding:
 > Unset environment variables are reset to default values.
 
 ```bash
-INSTALLATION_NAME="Chatwoot fazer.ai" \
+INSTALLATION_NAME="https://useautogenius.com/" \
 BRAND_NAME="My Company" \
-LOGO_THUMBNAIL="https://fazer.ai/logo-thumbnail.svg" \
-LOGO="https://fazer.ai/logo.svg" \
+LOGO_THUMBNAIL="https://useautogenius.com/logo-thumbnail.svg" \
+LOGO="https://useautogenius.com/logo.svg" \
 bundle exec rails branding:update
 ```
 
 | Environment variable | Default Value                               | Description                                                           |
 | :--------------------| :------------------------------------------ | :-------------------------------------------------------------------- |
-| `INSTALLATION_NAME`  | `Chatwoot`                                  | The installation-wide name used in the dashboard, title, etc.         |
+| `INSTALLATION_NAME`  | `autogenius`                                  | The installation-wide name used in the dashboard, title, etc.         |
 | `LOGO_THUMBNAIL`     | `/brand-assets/logo_thumbnail.svg`          | The thumbnail used for favicon (512px X 512px).                       |
 | `LOGO`               | `/brand-assets/logo.svg`                    | The logo used on the dashboard, login page, etc.                      |
 | `LOGO_DARK`          | `/brand-assets/logo_dark.svg`               | The logo used on the dashboard, login page, etc. for dark mode.       |
-| `BRAND_URL`          | `https://www.chatwoot.com`                  | The URL used in emails under the section “Powered By”.                |
-| `WIDGET_BRAND_URL`   | `https://www.chatwoot.com`                  | The URL used in the widget under the section “Powered By”.            |
-| `BRAND_NAME`         | `Chatwoot`                                  | The name used in emails and the widget.                               |
-| `TERMS_URL`          | `https://www.chatwoot.com/terms-of-service` | The terms of service URL displayed on the Signup Page.                |
-| `PRIVACY_URL`        | `https://www.chatwoot.com/privacy-policy`   | The privacy policy URL displayed in the app.                          |
-| `DISPLAY_MANIFEST`   | `true`                                      | Display default Chatwoot metadata like favicons and upgrade warnings. |
+| `BRAND_URL`          | `https://autogeniuscrm.useautogenius.com/`                  | The URL used in emails under the section “Powered By”.                |
+| `WIDGET_BRAND_URL`   | `https://autogeniuscrm.useautogenius.com`                  | The URL used in the widget under the section “Powered By”.            |
+| `BRAND_NAME`         | `autogenius`                                  | The name used in emails and the widget.                               |
+| `TERMS_URL`          | `hhttps://autogeniuscrm.useautogenius.com/` | The terms of service URL displayed on the Signup Page.                |
+| `PRIVACY_URL`        | `https://autogeniuscrm.useautogenius.com/`   | The privacy policy URL displayed in the app.                          |
+| `DISPLAY_MANIFEST`   | `true`                                      | Display default autogenius metadata like favicons and upgrade warnings. |
 
 ## Favicon and other assets
 
